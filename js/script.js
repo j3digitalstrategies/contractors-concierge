@@ -1,0 +1,1 @@
+document.querySelectorAll('form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();alert("Thank you! Your project information is ready to be sent.");}));
